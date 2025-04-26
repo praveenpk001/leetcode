@@ -7,7 +7,7 @@ Stack<Integer> st=new Stack<>();
             min=val;
         }
         st.push(val);
-    }
+    } 
     
     public void pop() {
         if(st.pop()==min){
@@ -16,6 +16,7 @@ Stack<Integer> st=new Stack<>();
     }
     
     public int top() {
+        
        return st.peek();
     }
     
