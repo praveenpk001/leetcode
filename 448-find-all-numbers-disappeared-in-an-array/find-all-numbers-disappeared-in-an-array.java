@@ -4,7 +4,6 @@ class Solution {
 	for (int num : nums) {
 		res[num] = num;
 	}
-
 	List<Integer> result = new ArrayList<>();
 	for (int i = 1; i <= nums.length; i++) {
 		if (res[i] == 0) {
